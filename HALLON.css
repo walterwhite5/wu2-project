@@ -1,0 +1,12 @@
+/*hola*/
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 2px 2px;
+    grid-template-columns: 2x 2px;
+}
