@@ -1,0 +1,37 @@
+/* reset */
+.navbar > ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* layout */
+  :root {
+    --layout-width: 44rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .navbar > ul {
+    display: flex;
+    gap: 1rem;
+  }
+  .navbar a {
+    text-decoration: none;
+  }
+  .centered-layout {
+    max-width: min(var(--layout-width), 100vw);
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  .flow > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+  
+  footer {
+    margin-top: 8rem;
+  }

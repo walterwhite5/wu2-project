@@ -5,8 +5,32 @@ html, body {
     min-height: 100vh;
 }
 
+
 .grid-container {
+    margin: 2rem;    
+}
+
+
+
+.grid-container2 {
+    margin: auto;
     display: grid;
     grid-template-rows: 2px 2px;
     grid-template-columns: 2x 2px;
+}
+
+.grid-container3 {
+    margin: 2rem;    
+}
+
+.grid-container4 {
+    margin: 2rem;    
+}
+
+.header2 {
+    margin: 3rem;
+}
+
+.grid-container5 {
+    margin: 2rem;
 }
