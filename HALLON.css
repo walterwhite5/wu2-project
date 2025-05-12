@@ -7,24 +7,30 @@ html, body {
 
 
 .grid-container {
-    margin: 2rem;    
+    margin: 2rem;  
+    padding-top: 1rem;  
+    padding-bottom: 1rem;
 }
 
 
 
 .grid-container2 {
     margin: auto;
+    padding-bottom: 8rem;
     display: grid;
     grid-template-rows: 2px 2px;
     grid-template-columns: 2x 2px;
 }
 
 .grid-container3 {
-    margin: 2rem;    
+    margin: 2rem;   
+    padding-bottom: 2rem; 
 }
 
 .grid-container4 {
-    margin: 2rem;    
+    margin: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
 }
 
 .header2 {
@@ -33,4 +39,25 @@ html, body {
 
 .grid-container5 {
     margin: 2rem;
+    padding-bottom: 5rem;
 }
+
+.header3 {
+    margin: 3rem;
+}
+
+.grid-container6 {
+    margin: 2rem;
+    padding-bottom: 5rem;
+}
+
+.socials {
+    margin: 2rem;
+    padding-bottom: 5rem;
+}
+
+
+
+/* 
+https://pbs.twimg.com/media/GK-aA25XcAQsASy.jpg
+*/
