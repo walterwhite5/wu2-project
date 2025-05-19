@@ -1,4 +1,4 @@
-/*hola*/
+
 html, body {
     margin: 0;
     padding: 0;
@@ -30,7 +30,12 @@ html, body {
 .grid-container4 {
     margin: 2rem;
     padding-top: 4rem;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
+}
+
+.button {
+    margin: 2rem;
+    padding-bottom: 5rem;
 }
 
 .header2 {
